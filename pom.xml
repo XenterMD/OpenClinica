@@ -28,7 +28,7 @@
 		<config.file>src/main/resources/datainfo.properties</config.file>
 
 		<!-- Library Versions -->
-		<spring.version>3.0.5.RELEASE</spring.version>
+		<spring.version>5.2.22.RELEASE</spring.version>
 		<db.test>localhost</db.test>
 	</properties>
 	<profiles>
@@ -101,7 +101,7 @@
 			<dependency>
 				<groupId>org.quartz-scheduler</groupId>
 				<artifactId>quartz</artifactId>
-				<version>1.8.6</version>
+				<version>2.3.2</version>
 			</dependency>
 			<dependency>
 				<groupId>org.quartz-scheduler</groupId>
@@ -184,12 +184,12 @@
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-core</artifactId>
-			<version>1.1.2</version>
+			<version>1.2.13</version>
 		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
-			<version>1.1.2</version>
+			<version>1.2.13</version>
 		</dependency>
 		<!-- @pgawade 22-Nov-2010 Added the logback access; it will be needed to
 			get the web application usage pattern data -->
@@ -272,7 +272,7 @@
 		<dependency>
 			<groupId>org.springframework.security.oauth</groupId>
 			<artifactId>spring-security-oauth</artifactId>
-			<version>1.0.0.M2</version>
+			<version>2.0.19.RELEASE</version>
 		</dependency>
 		<!-- HIBERNATE -->
 		<dependency>
@@ -334,7 +334,7 @@
 		<dependency>
 			<groupId>org.liquibase</groupId>
 			<artifactId>liquibase-core</artifactId>
-			<version>1.9.5</version>
+			<version>4.8.0</version>
 		</dependency>
 		<!-- Explicitly defining dependencies versions for Maven 3 -->
 		<dependency>
